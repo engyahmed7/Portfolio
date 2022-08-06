@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <p class="header-content-logo">ENGY</p>
+        <nav class="web">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="navbar mobile">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#services"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#projects"
+                      >Projects</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="landing">
+      <div class="container">
+        <div class="content">
+          <p>Hello, i'm engy ahmed</p>
+          <p>Frontend developer</p>
+          <p>I build life changing courses</p>
+          <a
+            href="https://github.com/engyahmed7"
+            target="_blank"
+            class="btn btn-primary"
+            >View my work</a
+          >
+          <div class="social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100005881955435"
+              target="_blank"
+              class="facebook"
+              ><i class="fab fa-facebook-f face"></i
+            ></a>
+            <a
+              href="https://github.com/engyahmed7"
+              target="_blank"
+              class="github"
+              ><i class="fab fa-github git"></i
+            ></a>
+            <a
+              href="https://twitter.com/enjyahmeedd"
+              target="_blank"
+              class="linkedin"
+              ><i class="fab fa-linkedin-in link"></i
+            ></a>
+            <a
+              href="https://twitter.com/enjyahmeedd"
+              target="_blank"
+              class="twitter"
+              ><i class="fab fa-twitter tweet"></i
+            ></a>
+          </div>
+        </div>
+
+        <img src="images/landing.webp" alt="landing" />
+      </div>
+    </div>
+    <div class="services" id="services">
+      <div class="container">
+        <h2 class="main-title">Services</h2>
+        <div class="services-list">
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="service-content">
+              <h3>Web Development</h3>
+              <p>I build web applications using the latest technologies.</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="service-content">
+              <h3>Mobile Development</h3>
+              <p>I build mobile applications using the latest technologies.</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fa-solid fa-ghost"></i>
+            </div>
+            <div class="service-content">
+              <h3>Game Development</h3>
+              <p>I build games using the latest technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <h2 class="main-title">Projects</h2>
+      <div class="container">
+        <div class="boxs">
+          <div class="box">
+            <h3>Leon Project</h3>
+            <p>Web Application</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Leon-Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>KasperProject</h3>
+            <p>Web Application</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Kasper-Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Care Project</h3>
+            <p>Web Application</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Care_Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Book Store</h3>
+            <p>Web Application</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Book-Store"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Doctor Application</h3>
+            <p>Mobile Application using flutter</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Doctor-Mobile-Application"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Coffee Application</h3>
+            <p>Mobile Application using flutter</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Coffee_Flutter_App"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Clothes Project</h3>
+            <p>Web Application using docker</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Cloud-Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Fitness Application</h3>
+            <p>Mobile Application using android native</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Fitness_MobileApplication"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Pharmacy Application</h3>
+            <p>Web Application using react</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Pharmacy-Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Running Game</h3>
+            <p>Game using unity</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Running-UnityGame"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Spongebob Game</h3>
+            <p>AI Game using unity</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Spongebob-Unity-Game"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="box">
+            <h3>Pizza Project</h3>
+            <p>Web Application using react</p>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              href="https://github.com/engyahmed7/Pizza-Project"
+              class="btn btn-outline-primary"
+              >view</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <h2 class="main-title">Let's work together</h2>
+      <div class="container">
+        <div class="card1">
+          <i class="fa-solid fa-phone"></i>
+          <p>01114621092</p>
+        </div>
+        <div class="card1">
+          <i class="fa-solid fa-envelope"></i>
+          <p>engya306@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <div class="text-muted">&copy; 2020 Engy Ahmed</div>
+    </div>
+  </body>
+</html>
